@@ -1,0 +1,21 @@
+pkgbase = qcom-qairt
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://softwarecenter.qualcomm.com
+	arch = aarch64
+	license = custom:Qualcomm-Technologies-Inc.-Proprietary
+	makedepends = unzip
+	options = !strip
+	options = !debug
+	source = https://softwarecenter.qualcomm.com/api/download/software/sdks/Qualcomm_AI_Runtime_Community/All/2.43.1.260218/v2.43.1.260218.zip
+	sha256sums = 4b36d5fce64f32c6be2bfaeff506e22bd737ff85190605ee1d3bf2dc6495fc81
+
+pkgname = qcom-qnn-sdk-v68
+	pkgdesc = Qualcomm Neural Network SDK (Hexagon v68)
+	depends = 
+	provides = qcom-qnn-sdk
+
+pkgname = qcom-snpe-sdk-v68
+	pkgdesc = Snapdragon Neural Processing Engine SDK (Hexagon v68)
+	depends = 
+	provides = qcom-snpe-sdk
