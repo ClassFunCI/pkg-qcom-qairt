@@ -2,7 +2,7 @@
 
 pkgbase=qcom-qairt
 pkgname=('qcom-qnn-sdk-v68' 'qcom-snpe-sdk-v68')
-pkgver=1.0
+pkgver=2.43.1.260218
 pkgrel=1
 arch=('aarch64')
 url="https://softwarecenter.qualcomm.com"
@@ -12,7 +12,7 @@ options=('!strip' '!debug')
 
 _hexagon_version="v68"
 _hexagon_dir="hexagon-${_hexagon_version}"
-_qnpsdk_src_ver="2.43.1.260218"
+_qnpsdk_src_ver=${pkgver}
 _qnpsdk_src_shid="4b36d5fce64f32c6be2bfaeff506e22bd737ff85190605ee1d3bf2dc6495fc81"
 _platform_dir="aarch64-oe-linux-gcc11.2"
 

@@ -1,5 +1,5 @@
 pkgbase = qcom-qairt
-	pkgver = 1.0
+	pkgver = 2.43.1.260218
 	pkgrel = 1
 	url = https://softwarecenter.qualcomm.com
 	arch = aarch64
