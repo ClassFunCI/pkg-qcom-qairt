@@ -1,6 +1,6 @@
 pkgbase = qcom-qairt
 	pkgver = 2.43.1.260218
-	pkgrel = 1
+	pkgrel = 2
 	url = https://softwarecenter.qualcomm.com
 	arch = aarch64
 	license = custom:Qualcomm-Technologies-Inc.-Proprietary
@@ -14,8 +14,22 @@ pkgname = qcom-qnn-sdk-v68
 	pkgdesc = Qualcomm Neural Network SDK (Hexagon v68)
 	depends = 
 	provides = qcom-qnn-sdk
+	conflicts = qcom-qnn-sdk-v73
 
 pkgname = qcom-snpe-sdk-v68
 	pkgdesc = Snapdragon Neural Processing Engine SDK (Hexagon v68)
 	depends = 
 	provides = qcom-snpe-sdk
+	conflicts = qcom-snpe-sdk-v73
+
+pkgname = qcom-qnn-sdk-v73
+	pkgdesc = Qualcomm Neural Network SDK (Hexagon v73)
+	depends = 
+	provides = qcom-qnn-sdk
+	conflicts = qcom-qnn-sdk-v68
+
+pkgname = qcom-snpe-sdk-v73
+	pkgdesc = Snapdragon Neural Processing Engine SDK (Hexagon v73)
+	depends = 
+	provides = qcom-snpe-sdk
+	conflicts = qcom-snpe-sdk-v68
